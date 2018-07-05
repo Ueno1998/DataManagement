@@ -8,6 +8,11 @@ def roll_2dice():
     dice.append(die2)
     return dice
 
+print("What is your name?")
+name = raw_input("> ")
+print("Hello, " + name + "!")
+
+
 dice = roll_2dice()
 total = dice[0] + dice[1]
 
