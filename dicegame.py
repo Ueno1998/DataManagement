@@ -23,8 +23,8 @@ print("Total value: " + str(total))
 
 
 if total > 7:
-    print("You won.")
+    print(str(name) + " won!")
 else:
-    print("You lost.")
+    print(str(name) + " lost.")
 
 
