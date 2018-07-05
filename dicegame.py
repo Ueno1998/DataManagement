@@ -16,3 +16,10 @@ print("Die 1: " + str(dice[0]))
 print("Die 2: " + str(dice[1]))
 print("Total value: " + str(total))
 
+
+if total > 7:
+    print("You won.")
+else:
+    print("You lost.")
+
+
